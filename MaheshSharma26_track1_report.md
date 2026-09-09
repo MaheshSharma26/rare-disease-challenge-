@@ -1,6 +1,6 @@
 # Track 1 Clinical & Genomic Analysis Report
 
-**Participant**: MaheshSharma26  
+**Participant**: Mahesh Kumar Sharma
 **Challenge**: SageBio Rare Disease Genomic Challenge (MVA Hackathon 2026) – Track 1  
 **Primary Candidate Model/Filename**: `MaheshSharma26_bub1b-compound-het.csv`  
 
