@@ -10,7 +10,7 @@ Integrated multi-omics variant prioritization pipeline. Scanned whole-genome VCF
 Automated computational variant extraction and prioritization pipeline followed by targeted clinical genetics curation and genotype-phenotype correlation against HPO term profiles.
 
 [Manual Review Description]
-Validated candidate variants by verifying depth (DP), genotype quality (GQ), allele balance (AD), read-backed phasing, ACMG pathogenicity criteria, and disease-gene fit against Mosaic Variegated Aneuploidy (MVA) syndrome 1 (BUB1B) and Antenatal Bartter Syndrome Type 1 (SLC12A1).
+Validated candidate variants by verifying sequencing depth (DP), genotype quality (GQ), allele balance (AD), read-backed phasing, ACMG pathogenicity criteria, and disease-gene fit against Mosaic Variegated Aneuploidy (MVA) syndrome 1 (BUB1B) and hereditary cancer/thrombophilia risk factors.
 
 [Public Data Used]
 Publicly available databases: NCBI ClinVar, NCBI dbSNP, Ensembl VEP (GRCh38), gnomAD v4, MyVariant.info, HPO (Human Phenotype Ontology), OMIM, and GENCODE v46.
@@ -19,17 +19,17 @@ Publicly available databases: NCBI ClinVar, NCBI dbSNP, Ensembl VEP (GRCh38), gn
 None. 100% publicly available data and tools.
 
 [Compound Heterozygous Support]
-Yes. The pipeline explicitly identifies and pairs candidate compound heterozygous variants on the same locus (e.g. BUB1B) and evaluates read-backed phasing (PGT/PID) to confirm trans configuration.
+Yes. The pipeline explicitly identifies and pairs candidate compound heterozygous variants on the same locus (e.g. BUB1B) and evaluates read-backed phasing (PGT/PID) and distance metrics to confirm trans configuration.
 
 [Secondary / Incidental Findings]
-Filtered for incidental/co-diagnosed pathogenic variants. Identified a secondary homozygous pathogenic variant in SLC12A1 (rs3577326 / ClinVar 3577326) explaining the congenital nephrocalcinosis and perinatal 32-week birth.
+Filtered for incidental/co-diagnosed pathogenic variants. Identified a secondary heterozygous Factor V Leiden variant in F5 (chr1:169549811 C>T, rs6025, p.Arg506Gln), providing valuable insight for clinical thromboembolism risk management during oncological care.
 
 [Run Time & Cost]
 Total runtime < 5 minutes on standard workstation. Total cost: $0.
 
 [GenAI Disclosure]
-Antigravity AI Assistant, Gemini 3.6 Flash model, commercial processor terms, no training on customer content.
+Google DeepMind / Antigravity AI Assistant, Gemini 3.6 Flash model, commercial processor terms, no training on customer content.
 
 [Abstract]
-We present an automated, phenotype-driven genomic variant prioritization framework for rare disease diagnosis. Applied to Whole Genome Sequencing (WGS) of a proband presenting with rhabdomyosarcoma, nephrocalcinosis, short stature, failure to thrive, 32-week prematurity, and parental recurrent miscarriages, our pipeline identified a compound heterozygous etiology in BUB1B (chr15:40259762 G>A, novel missense p.Gly412Asp; and chr15:40192892 C>T, rs185599777) diagnostic of Mosaic Variegated Aneuploidy (MVA) Syndrome 1 (OMIM #257300). Additionally, a secondary homozygous pathogenic variant in SLC12A1 (chr15:48288516 T>C) provided a dual molecular explanation for the congenital nephrocalcinosis and perinatal complications. Key strengths include rapid execution, read-backed phasing integration, and automated multi-database cross-referencing.
+We present an automated, phenotype-driven genomic variant prioritization framework for rare disease diagnosis. Applied to Whole Genome Sequencing (WGS) of a proband presenting with rhabdomyosarcoma, nephrocalcinosis, short stature, failure to thrive, 32-week prematurity, and parental recurrent miscarriages, our pipeline identified a definitive compound heterozygous etiology in BUB1B: a pathogenic nonsense mutation (chr15:40209701 T>G, rs759242053, c.2210T>G, p.Leu737*) and a novel deleterious missense mutation (chr15:40220612 T>G, c.3006T>G, p.Asn1002Lys), diagnostic of Mosaic Variegated Aneuploidy (MVA) Syndrome 1 (OMIM #257300). In addition, an incidental finding in F5 (Factor V Leiden, rs6025) was surfaced as a secondary thrombophilia risk factor. Key pipeline strengths include rapid whole-genome CDS mapping, rigorous multi-database annotation, and automated recessive disease model recovery.
 

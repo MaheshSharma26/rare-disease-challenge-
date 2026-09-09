@@ -22,14 +22,14 @@ Whole-genome sequencing (WGS) variant interpretation and candidate drug discover
 
 #### 1. Primary Finding: Mosaic Variegated Aneuploidy (MVA) Syndrome 1 (*BUB1B*, OMIM #257300)
 - **Genotype**: Compound Heterozygous
-- **Variant 1A**: `chr15:40259762 G>A` – Novel heterozygous missense variant (`p.Gly412Asp` / `c.1235G>A`, GT: `0/1`, High Quality QD=16.13, GQ=99)
-- **Variant 1B**: `chr15:40192892 C>T` (`rs185599777`) – Heterozygous intronic/regulatory variant (`c.1059-3653C>T`, GT: `0/1`, ClinVar ID 1676498)
-- **Mechanism**: MVA1 is an autosomal recessive chromosome segregation disorder causing premature chromatid separation, mosaic aneuploidy, severe prenatal/postnatal growth retardation, and high predisposition to embryonal rhabdomyosarcoma. Parental miscarriages reflect inherited/de novo mitotic and meiotic chromosome instability.
+- **Variant 1A (Nonsense / Truncating Allele)**: `chr15:40209701 T>G` (`rs759242053`) – Heterozygous stop_gained variant (`c.2210T>G`, `p.Leu737*`, GT: `0/1`, ClinVar Pathogenic/Likely Pathogenic, gnomAD AF=9.98e-05, GQ=99)
+- **Variant 1B (Novel Missense Allele)**: `chr15:40220612 T>G` – Heterozygous novel missense variant (`c.3006T>G`, `p.Asn1002Lys`, GT: `0/1`, SIFT=Deleterious, PolyPhen-2=Probably Damaging, Novel, GQ=99)
+- **Mechanism**: MVA1 is an autosomal recessive chromosome segregation disorder causing premature chromatid separation (PCS), mosaic variegated aneuploidy, severe prenatal/postnatal growth retardation, and high predisposition to early-childhood embryonal malignancies, particularly **rhabdomyosarcoma** and Wilms tumor. Complete homozygous null alleles are lethal; patients carry a truncating null allele in trans with a hypomorphic missense allele. Parental miscarriages reflect constitutional/germline chromosome missegregation.
 
-#### 2. Secondary Finding: Antenatal Bartter Syndrome Type 1 (*SLC12A1*, OMIM #601678)
-- **Genotype**: Homozygous
-- **Variant 2**: `chr15:48288516 T>C` (`rs3577326` / ClinVar 3577326) – Homozygous pathogenic splicing variant (`c.2873_2873+1delinsCGTT`, GT: `1/1`, Depth 32 reads, GQ=95)
-- **Mechanism**: Loss of renal NKCC2 cotransporter function causes Antenatal Bartter Syndrome Type 1, directly explaining the **congenital nephrocalcinosis** present from birth and severe polyhydramnios/preterm birth at 32 weeks.
+#### 2. Secondary Finding: Factor V Leiden Thrombophilia Risk (*F5*, OMIM #188055)
+- **Genotype**: Heterozygous
+- **Variant 2**: `chr1:169549811 C>T` (`rs6025`) – Heterozygous missense variant (`c.1601G>A`, `p.Arg506Gln`, GT: `0/1`, DP=54, GQ=99)
+- **Clinical Relevance**: Established genetic risk factor for venous thromboembolism, clinically relevant for pediatric oncological care and catheter management.
 
 ---
 
