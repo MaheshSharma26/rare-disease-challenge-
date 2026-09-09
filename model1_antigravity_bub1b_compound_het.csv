@@ -1,0 +1,3 @@
+proband_id,chrom_1,pos_1,ref_1,alt_1,chrom_2,pos_2,ref_2,alt_2,epcr,finding_type,notes
+PROBAND01,chr15,40259762,G,A,chr15,40192892,C,T,0.95,primary,"Compound heterozygous BUB1B variants (novel missense c.1235G>A p.Gly412Asp + regulatory/splice rs185599777 c.1059-3653C>T) underlying Mosaic Variegated Aneuploidy (MVA) syndrome 1 with early-onset rhabdomyosarcoma, nephrocalcinosis, and severe prenatal/postnatal growth failure."
+PROBAND01,chr15,48288516,T,C,,,,,0.90,secondary,"Homozygous SLC12A1 variant (rs3577326 / ClinVar ID 3577326) underlying Antenatal Bartter Syndrome Type 1, explaining congenital nephrocalcinosis and severe perinatal polyhydramnios/preterm birth at 32 weeks."
