@@ -1,0 +1,29 @@
+# Patient genomic data (Strict IRB compliance - DO NOT COMMIT OR RE-SHARE)
+data/
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bam
+*.bam.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fasta
+
+# Environment & credentials
+.env
+hf_token.txt
+
+# Python & OS
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+.idea/
+.vscode/
+*.tmp
