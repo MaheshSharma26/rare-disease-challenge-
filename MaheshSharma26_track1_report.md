@@ -54,4 +54,4 @@ We present a phenotype-driven genomic analysis pipeline applied to Whole Genome 
 
 ## 5. Generative AI & Data Handling Disclosure
 
-> **AI Usage Attestation**: "Google DeepMind / Antigravity AI Assistant, Gemini 3.6 Flash model, commercial processor terms, no training on customer content."
+> **AI Usage Attestation**: "Google DeepMind / Antigravity AI Assistant, Gemini 3.8 Flash model, commercial processor terms, no training on customer content."
